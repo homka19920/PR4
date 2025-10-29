@@ -15,7 +15,18 @@ public class App {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+ Thread thread = new Thread(() -> {
+            System.out.println("Выполняется в новом потоке");
+        });
+
+        // Неправильный способ — вызов run() напрямую
+        // thread.run(); // Это выполнится в текущем потоке
+
+        // Правильный способ — вызов start()
+        thread.start();
     }
+
+    }
+
     
-}
+

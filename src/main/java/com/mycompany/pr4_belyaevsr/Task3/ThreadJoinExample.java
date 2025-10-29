@@ -9,13 +9,6 @@ package com.mycompany.pr4_belyaevsr.Task3;
  *
  * @author STUDENT 1
  */
-public class Thread {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+public class ThreadJoinExample {
     
 }
